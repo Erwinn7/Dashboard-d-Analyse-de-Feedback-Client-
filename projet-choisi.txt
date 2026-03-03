@@ -1,0 +1,53 @@
+## Projet 7 : Dashboard d'analyse de feedback client
+
+### Le vrai problème
+
+Tu as des centaines d'avis/feedbacks. Tu veux des insights : qu'est-ce qui plaît, qu'est-ce qui pose problème, est-ce que ça évolue dans le temps ? Pas juste un sentiment moyen.
+
+### Ce que tu construis
+
+Un dashboard qui analyse les feedbacks, identifie les thèmes, track l'évolution, et alerte sur les problèmes émergents.
+
+### Techniques IA utilisées
+
+- **Extraction thématique** : identifier les sujets abordés
+- **Sentiment par aspect** : "livraison" négatif, "produit" positif
+- **Agrégation** : patterns, tendances
+- **Détection d'anomalie** : pic de plaintes sur un sujet
+
+### Architecture requise
+
+```
+┌─────────────────┐     ┌──────────────────┐     ┌─────────────────┐
+│ Feedbacks       │────▶│ Analyse IA       │────▶│ Base analysée   │
+│ (CSV/texte)     │     │ (thèmes, sent.)  │     │ (avec date)     │
+└─────────────────┘     └──────────────────┘     └────────┬────────┘
+                                                          │
+┌─────────────────┐     ┌──────────────────┐              │
+│ Dashboard       │◀────│ Agrégation +     │◀─────────────┘
+│ (vues, alertes) │     │ Tendances        │
+└─────────────────┘     └──────────────────┘
+```
+
+### MVP (6h)
+
+- Import de feedbacks avec date (CSV ou texte)
+- Analyse : sentiment + 2-3 thèmes par feedback
+- Stockage persistant
+- Vue agrégée : répartition des thèmes, sentiment moyen par thème
+- Top 3 positifs, top 3 négatifs avec exemples représentatifs
+
+### Version avancée
+
+- Évolution temporelle (graphique sentiment par semaine)
+- Alertes : détection de pic négatif sur un thème
+- Comparaison de périodes ("ce mois vs mois dernier")
+- Clustering automatique des thèmes émergents
+
+### Critères spécifiques
+
+- Les thèmes identifiés sont cohérents
+- L'agrégation est correcte (vérifiable manuellement sur un échantillon)
+- La persistance fonctionne (ajout de nouveaux feedbacks)
+
+---
