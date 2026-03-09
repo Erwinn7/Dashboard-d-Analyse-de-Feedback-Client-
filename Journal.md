@@ -34,7 +34,7 @@ Développement de la logique d'extraction de données. L'objectif est de transfo
 
 ---
 
-## ⚠️ Problèmes rencontrés & Solutions
+## III- Problèmes rencontrés & Solutions
 
 | Problème | Solution |
 | :--- | :--- |
@@ -43,7 +43,7 @@ Développement de la logique d'extraction de données. L'objectif est de transfo
 
 ---
 
-## 💡 Ce que j'ai appris
+## IV-  Ce que j'ai appris
 La puissance des **Structured Outputs**. En forçant l'IA à répondre dans un format informatique (JSON) plutôt qu'en langage naturel, on transforme un outil de chat en un véritable moteur de base de données fiable et prévisible.
 
 ---

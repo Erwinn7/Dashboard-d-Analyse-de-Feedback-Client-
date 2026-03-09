@@ -1,0 +1,1 @@
+traiter les emojies et le message super court 
