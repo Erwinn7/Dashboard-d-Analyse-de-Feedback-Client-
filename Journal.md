@@ -48,3 +48,48 @@ La puissance des **Structured Outputs**. En forçant l'IA à répondre dans un f
 
 ---
 **Prochaine étape :** Création de l'interface Streamlit et affichage des premiers graphiques (Session 2).
+
+---
+
+# 📓 Journal de Bord : Session 2
+**Date :** 17 Mars 2026  
+**Objectif :** Créer le MVP du dashboard Streamlit avec persistance et vues agrégées.
+
+## I- Objectif de la session
+Transformer le moteur d'analyse IA en application exploitable : import de feedbacks, analyse en lot, sauvegarde persistante, visualisation des tendances clés.
+
+## II- Étapes réalisées
+
+### 1. Interface Streamlit (MVP)
+Création de `app.py` avec :
+* Import de feedbacks via CSV.
+* Saisie manuelle de feedbacks (1 ligne = 1 avis).
+* Bouton unique `Analyser et ajouter`.
+
+### 2. Persistance des données
+Ajout d'un stockage local `analyses_store.csv` :
+* Conservation des analyses entre les sessions.
+* Colonnes stockées : date, client, feedback, sentiment global, thèmes, JSON complet, date d'analyse.
+
+### 3. Vues analytiques livrées
+Le dashboard affiche maintenant :
+* Répartition des sentiments (bar chart).
+* Répartition des thèmes.
+* Sentiment par thème (tableau agrégé).
+* Top 3 feedbacks positifs et top 3 négatifs.
+* Historique complet des analyses.
+
+### 4. Robustesse du moteur d'analyse
+Amélioration de `analyzer.py` :
+* Validation/sanitation des sorties JSON.
+* Gestion des textes très courts et des cas simples (ex: emojis) via fallback local.
+* Analyse en lot via `analyze_feedbacks_dataframe(df)`.
+
+## III- Livrables de la session
+* `app.py`
+* `requirements.txt`
+* `.gitignore`
+* `analyzer.py` (version robuste)
+
+## IV- Prochaine étape
+Ajouter la vue d'évolution temporelle (sentiment par semaine) et les alertes de pic négatif par thème.
