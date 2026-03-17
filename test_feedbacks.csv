@@ -1,361 +1,433 @@
 date,client_name,feedback
-2026-03-02,Client_1,"Support team was helpful but price feels high."
-2026-03-03,Client_2,"App is slow after update and has frequent bugs."
-2026-03-04,Client_3,"Package arrived damaged, experience was average."
-2026-03-05,Client_4,"Very satisfied with overall service."
-2026-03-06,Client_5,"Delivery was delayed and communication was poor."
-2026-03-07,Client_6,"Product is exactly as described, happy customer."
-2026-03-08,Client_7,"Interface is confusing and hard to use."
-2026-03-09,Client_8,"Good value for money and acceptable shipping."
-2026-03-10,Client_9,"Ok"
-2026-03-11,Client_10,"Great product quality and fast delivery."
-2026-03-12,Client_11,"Support team was helpful but price feels high."
-2026-03-13,Client_12,"App is slow after update and has frequent bugs."
-2026-03-14,Client_13,"Package arrived damaged, experience was average."
-2026-03-15,Client_14,"Very satisfied with overall service."
-2026-03-16,Client_15,"Delivery was delayed and communication was poor."
-2026-03-17,Client_16,"Product is exactly as described, happy customer."
-2026-03-18,Client_17,"Interface is confusing and hard to use."
-2026-03-19,Client_18,"Good value for money and acceptable shipping."
-2026-03-20,Client_19,"Ok"
-2026-03-21,Client_20,"Great product quality and fast delivery."
-2026-03-22,Client_21,"Support team was helpful but price feels high."
-2026-03-23,Client_22,"App is slow after update and has frequent bugs."
-2026-03-24,Client_23,"Package arrived damaged, experience was average."
-2026-03-25,Client_24,"Very satisfied with overall service."
-2026-03-26,Client_25,"Delivery was delayed and communication was poor."
-2026-03-27,Client_26,"Product is exactly as described, happy customer."
-2026-03-28,Client_27,"Interface is confusing and hard to use."
-2026-03-01,Client_28,"Good value for money and acceptable shipping."
-2026-03-02,Client_29,"Ok"
-2026-03-03,Client_30,"Great product quality and fast delivery."
-2026-03-04,Client_31,"Support team was helpful but price feels high."
-2026-03-05,Client_32,"App is slow after update and has frequent bugs."
-2026-03-06,Client_33,"Package arrived damaged, experience was average."
-2026-03-07,Client_34,"Very satisfied with overall service."
-2026-03-08,Client_35,"Delivery was delayed and communication was poor."
-2026-03-09,Client_36,"Product is exactly as described, happy customer."
-2026-03-10,Client_37,"Interface is confusing and hard to use."
-2026-03-11,Client_38,"Good value for money and acceptable shipping."
-2026-03-12,Client_39,"Ok"
-2026-03-13,Client_40,"Great product quality and fast delivery."
-2026-03-14,Client_41,"Support team was helpful but price feels high."
-2026-03-15,Client_42,"App is slow after update and has frequent bugs."
-2026-03-16,Client_43,"Package arrived damaged, experience was average."
-2026-03-17,Client_44,"Very satisfied with overall service."
-2026-03-18,Client_45,"Delivery was delayed and communication was poor."
-2026-03-19,Client_46,"Product is exactly as described, happy customer."
-2026-03-20,Client_47,"Interface is confusing and hard to use."
-2026-03-21,Client_48,"Good value for money and acceptable shipping."
-2026-03-22,Client_49,"Ok"
-2026-03-23,Client_50,"Great product quality and fast delivery."
-2026-03-24,Client_51,"Support team was helpful but price feels high."
-2026-03-25,Client_52,"App is slow after update and has frequent bugs."
-2026-03-26,Client_53,"Package arrived damaged, experience was average."
-2026-03-27,Client_54,"Very satisfied with overall service."
-2026-03-28,Client_55,"Delivery was delayed and communication was poor."
-2026-03-01,Client_56,"Product is exactly as described, happy customer."
-2026-03-02,Client_57,"Interface is confusing and hard to use."
-2026-03-03,Client_58,"Good value for money and acceptable shipping."
-2026-03-04,Client_59,"Ok"
-2026-03-05,Client_60,"Great product quality and fast delivery."
-2026-03-06,Client_61,"Support team was helpful but price feels high."
-2026-03-07,Client_62,"App is slow after update and has frequent bugs."
-2026-03-08,Client_63,"Package arrived damaged, experience was average."
-2026-03-09,Client_64,"Very satisfied with overall service."
-2026-03-10,Client_65,"Delivery was delayed and communication was poor."
-2026-03-11,Client_66,"Product is exactly as described, happy customer."
-2026-03-12,Client_67,"Interface is confusing and hard to use."
-2026-03-13,Client_68,"Good value for money and acceptable shipping."
-2026-03-14,Client_69,"Ok"
-2026-03-15,Client_70,"Great product quality and fast delivery."
-2026-03-16,Client_71,"Support team was helpful but price feels high."
-2026-03-17,Client_72,"App is slow after update and has frequent bugs."
-2026-03-18,Client_73,"Package arrived damaged, experience was average."
-2026-03-19,Client_74,"Very satisfied with overall service."
-2026-03-20,Client_75,"Delivery was delayed and communication was poor."
-2026-03-21,Client_76,"Product is exactly as described, happy customer."
-2026-03-22,Client_77,"Interface is confusing and hard to use."
-2026-03-23,Client_78,"Good value for money and acceptable shipping."
-2026-03-24,Client_79,"Ok"
-2026-03-25,Client_80,"Great product quality and fast delivery."
-2026-03-26,Client_81,"Support team was helpful but price feels high."
-2026-03-27,Client_82,"App is slow after update and has frequent bugs."
-2026-03-28,Client_83,"Package arrived damaged, experience was average."
-2026-03-01,Client_84,"Very satisfied with overall service."
-2026-03-02,Client_85,"Delivery was delayed and communication was poor."
-2026-03-03,Client_86,"Product is exactly as described, happy customer."
-2026-03-04,Client_87,"Interface is confusing and hard to use."
-2026-03-05,Client_88,"Good value for money and acceptable shipping."
-2026-03-06,Client_89,"Ok"
-2026-03-07,Client_90,"Great product quality and fast delivery."
-2026-03-08,Client_91,"Support team was helpful but price feels high."
-2026-03-09,Client_92,"App is slow after update and has frequent bugs."
-2026-03-10,Client_93,"Package arrived damaged, experience was average."
-2026-03-11,Client_94,"Very satisfied with overall service."
-2026-03-12,Client_95,"Delivery was delayed and communication was poor."
-2026-03-13,Client_96,"Product is exactly as described, happy customer."
-2026-03-14,Client_97,"Interface is confusing and hard to use."
-2026-03-15,Client_98,"Good value for money and acceptable shipping."
-2026-03-16,Client_99,"Ok"
-2026-03-17,Client_100,"Great product quality and fast delivery."
-2026-03-18,Client_101,"Support team was helpful but price feels high."
-2026-03-19,Client_102,"App is slow after update and has frequent bugs."
-2026-03-20,Client_103,"Package arrived damaged, experience was average."
-2026-03-21,Client_104,"Very satisfied with overall service."
-2026-03-22,Client_105,"Delivery was delayed and communication was poor."
-2026-03-23,Client_106,"Product is exactly as described, happy customer."
-2026-03-24,Client_107,"Interface is confusing and hard to use."
-2026-03-25,Client_108,"Good value for money and acceptable shipping."
-2026-03-26,Client_109,"Ok"
-2026-03-27,Client_110,"Great product quality and fast delivery."
-2026-03-28,Client_111,"Support team was helpful but price feels high."
-2026-03-01,Client_112,"App is slow after update and has frequent bugs."
-2026-03-02,Client_113,"Package arrived damaged, experience was average."
-2026-03-03,Client_114,"Very satisfied with overall service."
-2026-03-04,Client_115,"Delivery was delayed and communication was poor."
-2026-03-05,Client_116,"Product is exactly as described, happy customer."
-2026-03-06,Client_117,"Interface is confusing and hard to use."
-2026-03-07,Client_118,"Good value for money and acceptable shipping."
-2026-03-08,Client_119,"Ok"
-2026-03-09,Client_120,"Great product quality and fast delivery."
-2026-03-10,Client_121,"Support team was helpful but price feels high."
-2026-03-11,Client_122,"App is slow after update and has frequent bugs."
-2026-03-12,Client_123,"Package arrived damaged, experience was average."
-2026-03-13,Client_124,"Very satisfied with overall service."
-2026-03-14,Client_125,"Delivery was delayed and communication was poor."
-2026-03-15,Client_126,"Product is exactly as described, happy customer."
-2026-03-16,Client_127,"Interface is confusing and hard to use."
-2026-03-17,Client_128,"Good value for money and acceptable shipping."
-2026-03-18,Client_129,"Ok"
-2026-03-19,Client_130,"Great product quality and fast delivery."
-2026-03-20,Client_131,"Support team was helpful but price feels high."
-2026-03-21,Client_132,"App is slow after update and has frequent bugs."
-2026-03-22,Client_133,"Package arrived damaged, experience was average."
-2026-03-23,Client_134,"Very satisfied with overall service."
-2026-03-24,Client_135,"Delivery was delayed and communication was poor."
-2026-03-25,Client_136,"Product is exactly as described, happy customer."
-2026-03-26,Client_137,"Interface is confusing and hard to use."
-2026-03-27,Client_138,"Good value for money and acceptable shipping."
-2026-03-28,Client_139,"Ok"
-2026-03-01,Client_140,"Great product quality and fast delivery."
-2026-03-02,Client_141,"Support team was helpful but price feels high."
-2026-03-03,Client_142,"App is slow after update and has frequent bugs."
-2026-03-04,Client_143,"Package arrived damaged, experience was average."
-2026-03-05,Client_144,"Very satisfied with overall service."
-2026-03-06,Client_145,"Delivery was delayed and communication was poor."
-2026-03-07,Client_146,"Product is exactly as described, happy customer."
-2026-03-08,Client_147,"Interface is confusing and hard to use."
-2026-03-09,Client_148,"Good value for money and acceptable shipping."
-2026-03-10,Client_149,"Ok"
-2026-03-11,Client_150,"Great product quality and fast delivery."
-2026-03-12,Client_151,"Support team was helpful but price feels high."
-2026-03-13,Client_152,"App is slow after update and has frequent bugs."
-2026-03-14,Client_153,"Package arrived damaged, experience was average."
-2026-03-15,Client_154,"Very satisfied with overall service."
-2026-03-16,Client_155,"Delivery was delayed and communication was poor."
-2026-03-17,Client_156,"Product is exactly as described, happy customer."
-2026-03-18,Client_157,"Interface is confusing and hard to use."
-2026-03-19,Client_158,"Good value for money and acceptable shipping."
-2026-03-20,Client_159,"Ok"
-2026-03-21,Client_160,"Great product quality and fast delivery."
-2026-03-22,Client_161,"Support team was helpful but price feels high."
-2026-03-23,Client_162,"App is slow after update and has frequent bugs."
-2026-03-24,Client_163,"Package arrived damaged, experience was average."
-2026-03-25,Client_164,"Very satisfied with overall service."
-2026-03-26,Client_165,"Delivery was delayed and communication was poor."
-2026-03-27,Client_166,"Product is exactly as described, happy customer."
-2026-03-28,Client_167,"Interface is confusing and hard to use."
-2026-03-01,Client_168,"Good value for money and acceptable shipping."
-2026-03-02,Client_169,"Ok"
-2026-03-03,Client_170,"Great product quality and fast delivery."
-2026-03-04,Client_171,"Support team was helpful but price feels high."
-2026-03-05,Client_172,"App is slow after update and has frequent bugs."
-2026-03-06,Client_173,"Package arrived damaged, experience was average."
-2026-03-07,Client_174,"Very satisfied with overall service."
-2026-03-08,Client_175,"Delivery was delayed and communication was poor."
-2026-03-09,Client_176,"Product is exactly as described, happy customer."
-2026-03-10,Client_177,"Interface is confusing and hard to use."
-2026-03-11,Client_178,"Good value for money and acceptable shipping."
-2026-03-12,Client_179,"Ok"
-2026-03-13,Client_180,"Great product quality and fast delivery."
-2026-03-14,Client_181,"Support team was helpful but price feels high."
-2026-03-15,Client_182,"App is slow after update and has frequent bugs."
-2026-03-16,Client_183,"Package arrived damaged, experience was average."
-2026-03-17,Client_184,"Very satisfied with overall service."
-2026-03-18,Client_185,"Delivery was delayed and communication was poor."
-2026-03-19,Client_186,"Product is exactly as described, happy customer."
-2026-03-20,Client_187,"Interface is confusing and hard to use."
-2026-03-21,Client_188,"Good value for money and acceptable shipping."
-2026-03-22,Client_189,"Ok"
-2026-03-23,Client_190,"Great product quality and fast delivery."
-2026-03-24,Client_191,"Support team was helpful but price feels high."
-2026-03-25,Client_192,"App is slow after update and has frequent bugs."
-2026-03-26,Client_193,"Package arrived damaged, experience was average."
-2026-03-27,Client_194,"Very satisfied with overall service."
-2026-03-28,Client_195,"Delivery was delayed and communication was poor."
-2026-03-01,Client_196,"Product is exactly as described, happy customer."
-2026-03-02,Client_197,"Interface is confusing and hard to use."
-2026-03-03,Client_198,"Good value for money and acceptable shipping."
-2026-03-04,Client_199,"Ok"
-2026-03-05,Client_200,"Great product quality and fast delivery."
-2026-03-06,Client_201,"Support team was helpful but price feels high."
-2026-03-07,Client_202,"App is slow after update and has frequent bugs."
-2026-03-08,Client_203,"Package arrived damaged, experience was average."
-2026-03-09,Client_204,"Very satisfied with overall service."
-2026-03-10,Client_205,"Delivery was delayed and communication was poor."
-2026-03-11,Client_206,"Product is exactly as described, happy customer."
-2026-03-12,Client_207,"Interface is confusing and hard to use."
-2026-03-13,Client_208,"Good value for money and acceptable shipping."
-2026-03-14,Client_209,"Ok"
-2026-03-15,Client_210,"Great product quality and fast delivery."
-2026-03-16,Client_211,"Support team was helpful but price feels high."
-2026-03-17,Client_212,"App is slow after update and has frequent bugs."
-2026-03-18,Client_213,"Package arrived damaged, experience was average."
-2026-03-19,Client_214,"Very satisfied with overall service."
-2026-03-20,Client_215,"Delivery was delayed and communication was poor."
-2026-03-21,Client_216,"Product is exactly as described, happy customer."
-2026-03-22,Client_217,"Interface is confusing and hard to use."
-2026-03-23,Client_218,"Good value for money and acceptable shipping."
-2026-03-24,Client_219,"Ok"
-2026-03-25,Client_220,"Great product quality and fast delivery."
-2026-03-26,Client_221,"Support team was helpful but price feels high."
-2026-03-27,Client_222,"App is slow after update and has frequent bugs."
-2026-03-28,Client_223,"Package arrived damaged, experience was average."
-2026-03-01,Client_224,"Very satisfied with overall service."
-2026-03-02,Client_225,"Delivery was delayed and communication was poor."
-2026-03-03,Client_226,"Product is exactly as described, happy customer."
-2026-03-04,Client_227,"Interface is confusing and hard to use."
-2026-03-05,Client_228,"Good value for money and acceptable shipping."
-2026-03-06,Client_229,"Ok"
-2026-03-07,Client_230,"Great product quality and fast delivery."
-2026-03-08,Client_231,"Support team was helpful but price feels high."
-2026-03-09,Client_232,"App is slow after update and has frequent bugs."
-2026-03-10,Client_233,"Package arrived damaged, experience was average."
-2026-03-11,Client_234,"Very satisfied with overall service."
-2026-03-12,Client_235,"Delivery was delayed and communication was poor."
-2026-03-13,Client_236,"Product is exactly as described, happy customer."
-2026-03-14,Client_237,"Interface is confusing and hard to use."
-2026-03-15,Client_238,"Good value for money and acceptable shipping."
-2026-03-16,Client_239,"Ok"
-2026-03-17,Client_240,"Great product quality and fast delivery."
-2026-03-18,Client_241,"Support team was helpful but price feels high."
-2026-03-19,Client_242,"App is slow after update and has frequent bugs."
-2026-03-20,Client_243,"Package arrived damaged, experience was average."
-2026-03-21,Client_244,"Very satisfied with overall service."
-2026-03-22,Client_245,"Delivery was delayed and communication was poor."
-2026-03-23,Client_246,"Product is exactly as described, happy customer."
-2026-03-24,Client_247,"Interface is confusing and hard to use."
-2026-03-25,Client_248,"Good value for money and acceptable shipping."
-2026-03-26,Client_249,"Ok"
-2026-03-27,Client_250,"Great product quality and fast delivery."
-2026-03-28,Client_251,"Support team was helpful but price feels high."
-2026-03-01,Client_252,"App is slow after update and has frequent bugs."
-2026-03-02,Client_253,"Package arrived damaged, experience was average."
-2026-03-03,Client_254,"Very satisfied with overall service."
-2026-03-04,Client_255,"Delivery was delayed and communication was poor."
-2026-03-05,Client_256,"Product is exactly as described, happy customer."
-2026-03-06,Client_257,"Interface is confusing and hard to use."
-2026-03-07,Client_258,"Good value for money and acceptable shipping."
-2026-03-08,Client_259,"Ok"
-2026-03-09,Client_260,"Great product quality and fast delivery."
-2026-03-10,Client_261,"Support team was helpful but price feels high."
-2026-03-11,Client_262,"App is slow after update and has frequent bugs."
-2026-03-12,Client_263,"Package arrived damaged, experience was average."
-2026-03-13,Client_264,"Very satisfied with overall service."
-2026-03-14,Client_265,"Delivery was delayed and communication was poor."
-2026-03-15,Client_266,"Product is exactly as described, happy customer."
-2026-03-16,Client_267,"Interface is confusing and hard to use."
-2026-03-17,Client_268,"Good value for money and acceptable shipping."
-2026-03-18,Client_269,"Ok"
-2026-03-19,Client_270,"Great product quality and fast delivery."
-2026-03-20,Client_271,"Support team was helpful but price feels high."
-2026-03-21,Client_272,"App is slow after update and has frequent bugs."
-2026-03-22,Client_273,"Package arrived damaged, experience was average."
-2026-03-23,Client_274,"Very satisfied with overall service."
-2026-03-24,Client_275,"Delivery was delayed and communication was poor."
-2026-03-25,Client_276,"Product is exactly as described, happy customer."
-2026-03-26,Client_277,"Interface is confusing and hard to use."
-2026-03-27,Client_278,"Good value for money and acceptable shipping."
-2026-03-28,Client_279,"Ok"
-2026-03-01,Client_280,"Great product quality and fast delivery."
-2026-03-02,Client_281,"Support team was helpful but price feels high."
-2026-03-03,Client_282,"App is slow after update and has frequent bugs."
-2026-03-04,Client_283,"Package arrived damaged, experience was average."
-2026-03-05,Client_284,"Very satisfied with overall service."
-2026-03-06,Client_285,"Delivery was delayed and communication was poor."
-2026-03-07,Client_286,"Product is exactly as described, happy customer."
-2026-03-08,Client_287,"Interface is confusing and hard to use."
-2026-03-09,Client_288,"Good value for money and acceptable shipping."
-2026-03-10,Client_289,"Ok"
-2026-03-11,Client_290,"Great product quality and fast delivery."
-2026-03-12,Client_291,"Support team was helpful but price feels high."
-2026-03-13,Client_292,"App is slow after update and has frequent bugs."
-2026-03-14,Client_293,"Package arrived damaged, experience was average."
-2026-03-15,Client_294,"Very satisfied with overall service."
-2026-03-16,Client_295,"Delivery was delayed and communication was poor."
-2026-03-17,Client_296,"Product is exactly as described, happy customer."
-2026-03-18,Client_297,"Interface is confusing and hard to use."
-2026-03-19,Client_298,"Good value for money and acceptable shipping."
-2026-03-20,Client_299,"Ok"
-2026-03-21,Client_300,"Great product quality and fast delivery."
-2026-03-22,Client_301,"Support team was helpful but price feels high."
-2026-03-23,Client_302,"App is slow after update and has frequent bugs."
-2026-03-24,Client_303,"Package arrived damaged, experience was average."
-2026-03-25,Client_304,"Very satisfied with overall service."
-2026-03-26,Client_305,"Delivery was delayed and communication was poor."
-2026-03-27,Client_306,"Product is exactly as described, happy customer."
-2026-03-28,Client_307,"Interface is confusing and hard to use."
-2026-03-01,Client_308,"Good value for money and acceptable shipping."
-2026-03-02,Client_309,"Ok"
-2026-03-03,Client_310,"Great product quality and fast delivery."
-2026-03-04,Client_311,"Support team was helpful but price feels high."
-2026-03-05,Client_312,"App is slow after update and has frequent bugs."
-2026-03-06,Client_313,"Package arrived damaged, experience was average."
-2026-03-07,Client_314,"Very satisfied with overall service."
-2026-03-08,Client_315,"Delivery was delayed and communication was poor."
-2026-03-09,Client_316,"Product is exactly as described, happy customer."
-2026-03-10,Client_317,"Interface is confusing and hard to use."
-2026-03-11,Client_318,"Good value for money and acceptable shipping."
-2026-03-12,Client_319,"Ok"
-2026-03-13,Client_320,"Great product quality and fast delivery."
-2026-03-14,Client_321,"Support team was helpful but price feels high."
-2026-03-15,Client_322,"App is slow after update and has frequent bugs."
-2026-03-16,Client_323,"Package arrived damaged, experience was average."
-2026-03-17,Client_324,"Very satisfied with overall service."
-2026-03-18,Client_325,"Delivery was delayed and communication was poor."
-2026-03-19,Client_326,"Product is exactly as described, happy customer."
-2026-03-20,Client_327,"Interface is confusing and hard to use."
-2026-03-21,Client_328,"Good value for money and acceptable shipping."
-2026-03-22,Client_329,"Ok"
-2026-03-23,Client_330,"Great product quality and fast delivery."
-2026-03-24,Client_331,"Support team was helpful but price feels high."
-2026-03-25,Client_332,"App is slow after update and has frequent bugs."
-2026-03-26,Client_333,"Package arrived damaged, experience was average."
-2026-03-27,Client_334,"Very satisfied with overall service."
-2026-03-28,Client_335,"Delivery was delayed and communication was poor."
-2026-03-01,Client_336,"Product is exactly as described, happy customer."
-2026-03-02,Client_337,"Interface is confusing and hard to use."
-2026-03-03,Client_338,"Good value for money and acceptable shipping."
-2026-03-04,Client_339,"Ok"
-2026-03-05,Client_340,"Great product quality and fast delivery."
-2026-03-06,Client_341,"Support team was helpful but price feels high."
-2026-03-07,Client_342,"App is slow after update and has frequent bugs."
-2026-03-08,Client_343,"Package arrived damaged, experience was average."
-2026-03-09,Client_344,"Very satisfied with overall service."
-2026-03-10,Client_345,"Delivery was delayed and communication was poor."
-2026-03-11,Client_346,"Product is exactly as described, happy customer."
-2026-03-12,Client_347,"Interface is confusing and hard to use."
-2026-03-13,Client_348,"Good value for money and acceptable shipping."
-2026-03-14,Client_349,"Ok"
-2026-03-15,Client_350,"Great product quality and fast delivery."
-2026-03-16,Client_351,"Support team was helpful but price feels high."
-2026-03-17,Client_352,"App is slow after update and has frequent bugs."
-2026-03-18,Client_353,"Package arrived damaged, experience was average."
-2026-03-19,Client_354,"Very satisfied with overall service."
-2026-03-20,Client_355,"Delivery was delayed and communication was poor."
-2026-03-21,Client_356,"Product is exactly as described, happy customer."
-2026-03-22,Client_357,"Interface is confusing and hard to use."
-2026-03-23,Client_358,"Good value for money and acceptable shipping."
-2026-03-24,Client_359,"Ok"
-2026-03-25,Client_360,"Great product quality and fast delivery."
+2026-03-02,Client_001,Delivery was late and communication was poor.
+2026-03-03,Client_002,"Livraison conforme, expérience standard."
+2026-03-04,Client_003,Excellent customer support and smooth experience.
+2026-03-05,Client_004,"Produit décevant pour ce prix, je suis frustré."
+2026-03-06,Client_005,The product works as expected.
+2026-03-07,Client_006,Application fluide et support très réactif.
+2026-03-08,Client_007,"Package arrived damaged, very disappointing."
+2026-03-09,Client_008,"Avis mitigé, quelques points à améliorer."
+2026-03-10,Client_009,Good value for money and reliable service.
+2026-03-11,Client_010,Livraison en retard et aucune information du support.
+2026-03-12,Client_011,"It is okay overall, nothing special."
+2026-03-13,Client_012,"Très satisfait de la qualité, je recommande."
+2026-03-14,Client_013,The app keeps crashing after the update.
+2026-03-15,Client_014,"Rien de particulier, c'est acceptable."
+2026-03-16,Client_015,"The product matches expectations, highly recommended."
+2026-03-17,Client_016,"Colis abîmé à l'arrivée, mauvaise expérience."
+2026-03-18,Client_017,"Delivery was on time, standard service."
+2026-03-19,Client_018,"Bon rapport qualité prix, rien à signaler."
+2026-03-20,Client_019,Customer service was slow and unhelpful.
+2026-03-21,Client_020,"Le produit est correct, sans plus."
+2026-03-22,Client_021,"Great quality and fast delivery, very happy."
+2026-03-23,Client_022,Application lente avec plusieurs bugs gênants.
+2026-03-24,Client_023,"Average experience, neither good nor bad."
+2026-03-25,Client_024,Expérience parfaite du début à la fin.
+2026-03-26,Client_025,Quality is below expectations for this price.
+2026-03-27,Client_026,Fonctionne globalement comme prévu.
+2026-03-28,Client_027,Very satisfied with the app performance.
+2026-03-01,Client_028,Service client difficile à joindre et peu utile.
+2026-03-02,Client_029,"Mixed feelings, some pros and some cons."
+2026-03-03,Client_030,"Produit excellent, livraison rapide et service au top."
+2026-03-04,Client_031,Delivery was late and communication was poor.
+2026-03-05,Client_032,"Livraison conforme, expérience standard."
+2026-03-06,Client_033,Excellent customer support and smooth experience.
+2026-03-07,Client_034,"Produit décevant pour ce prix, je suis frustré."
+2026-03-08,Client_035,The product works as expected.
+2026-03-09,Client_036,Application fluide et support très réactif.
+2026-03-10,Client_037,"Package arrived damaged, very disappointing."
+2026-03-11,Client_038,"Avis mitigé, quelques points à améliorer."
+2026-03-12,Client_039,Good value for money and reliable service.
+2026-03-13,Client_040,Livraison en retard et aucune information du support.
+2026-03-14,Client_041,"It is okay overall, nothing special."
+2026-03-15,Client_042,"Très satisfait de la qualité, je recommande."
+2026-03-16,Client_043,The app keeps crashing after the update.
+2026-03-17,Client_044,"Rien de particulier, c'est acceptable."
+2026-03-18,Client_045,"The product matches expectations, highly recommended."
+2026-03-19,Client_046,"Colis abîmé à l'arrivée, mauvaise expérience."
+2026-03-20,Client_047,"Delivery was on time, standard service."
+2026-03-21,Client_048,"Bon rapport qualité prix, rien à signaler."
+2026-03-22,Client_049,Customer service was slow and unhelpful.
+2026-03-23,Client_050,"Le produit est correct, sans plus."
+2026-03-24,Client_051,"Great quality and fast delivery, very happy."
+2026-03-25,Client_052,Application lente avec plusieurs bugs gênants.
+2026-03-26,Client_053,"Average experience, neither good nor bad."
+2026-03-27,Client_054,Expérience parfaite du début à la fin.
+2026-03-28,Client_055,Quality is below expectations for this price.
+2026-03-01,Client_056,Fonctionne globalement comme prévu.
+2026-03-02,Client_057,Very satisfied with the app performance.
+2026-03-03,Client_058,Service client difficile à joindre et peu utile.
+2026-03-04,Client_059,"Mixed feelings, some pros and some cons."
+2026-03-05,Client_060,"Produit excellent, livraison rapide et service au top."
+2026-03-06,Client_061,Delivery was late and communication was poor.
+2026-03-07,Client_062,"Livraison conforme, expérience standard."
+2026-03-08,Client_063,Excellent customer support and smooth experience.
+2026-03-09,Client_064,"Produit décevant pour ce prix, je suis frustré."
+2026-03-10,Client_065,The product works as expected.
+2026-03-11,Client_066,Application fluide et support très réactif.
+2026-03-12,Client_067,"Package arrived damaged, very disappointing."
+2026-03-13,Client_068,"Avis mitigé, quelques points à améliorer."
+2026-03-14,Client_069,Good value for money and reliable service.
+2026-03-15,Client_070,Livraison en retard et aucune information du support.
+2026-03-16,Client_071,"It is okay overall, nothing special."
+2026-03-17,Client_072,"Très satisfait de la qualité, je recommande."
+2026-03-18,Client_073,The app keeps crashing after the update.
+2026-03-19,Client_074,"Rien de particulier, c'est acceptable."
+2026-03-20,Client_075,"The product matches expectations, highly recommended."
+2026-03-21,Client_076,"Colis abîmé à l'arrivée, mauvaise expérience."
+2026-03-22,Client_077,"Delivery was on time, standard service."
+2026-03-23,Client_078,"Bon rapport qualité prix, rien à signaler."
+2026-03-24,Client_079,Customer service was slow and unhelpful.
+2026-03-25,Client_080,"Le produit est correct, sans plus."
+2026-03-26,Client_081,"Great quality and fast delivery, very happy."
+2026-03-27,Client_082,Application lente avec plusieurs bugs gênants.
+2026-03-28,Client_083,"Average experience, neither good nor bad."
+2026-03-01,Client_084,Expérience parfaite du début à la fin.
+2026-03-02,Client_085,Quality is below expectations for this price.
+2026-03-03,Client_086,Fonctionne globalement comme prévu.
+2026-03-04,Client_087,Very satisfied with the app performance.
+2026-03-05,Client_088,Service client difficile à joindre et peu utile.
+2026-03-06,Client_089,"Mixed feelings, some pros and some cons."
+2026-03-07,Client_090,"Produit excellent, livraison rapide et service au top."
+2026-03-08,Client_091,Delivery was late and communication was poor.
+2026-03-09,Client_092,"Livraison conforme, expérience standard."
+2026-03-10,Client_093,Excellent customer support and smooth experience.
+2026-03-11,Client_094,"Produit décevant pour ce prix, je suis frustré."
+2026-03-12,Client_095,The product works as expected.
+2026-03-13,Client_096,Application fluide et support très réactif.
+2026-03-14,Client_097,"Package arrived damaged, very disappointing."
+2026-03-15,Client_098,"Avis mitigé, quelques points à améliorer."
+2026-03-16,Client_099,Good value for money and reliable service.
+2026-03-17,Client_100,Livraison en retard et aucune information du support.
+2026-03-18,Client_101,"It is okay overall, nothing special."
+2026-03-19,Client_102,"Très satisfait de la qualité, je recommande."
+2026-03-20,Client_103,The app keeps crashing after the update.
+2026-03-21,Client_104,"Rien de particulier, c'est acceptable."
+2026-03-22,Client_105,"The product matches expectations, highly recommended."
+2026-03-23,Client_106,"Colis abîmé à l'arrivée, mauvaise expérience."
+2026-03-24,Client_107,"Delivery was on time, standard service."
+2026-03-25,Client_108,"Bon rapport qualité prix, rien à signaler."
+2026-03-26,Client_109,Customer service was slow and unhelpful.
+2026-03-27,Client_110,"Le produit est correct, sans plus."
+2026-03-28,Client_111,"Great quality and fast delivery, very happy."
+2026-03-01,Client_112,Application lente avec plusieurs bugs gênants.
+2026-03-02,Client_113,"Average experience, neither good nor bad."
+2026-03-03,Client_114,Expérience parfaite du début à la fin.
+2026-03-04,Client_115,Quality is below expectations for this price.
+2026-03-05,Client_116,Fonctionne globalement comme prévu.
+2026-03-06,Client_117,Very satisfied with the app performance.
+2026-03-07,Client_118,Service client difficile à joindre et peu utile.
+2026-03-08,Client_119,"Mixed feelings, some pros and some cons."
+2026-03-09,Client_120,"Produit excellent, livraison rapide et service au top."
+2026-03-10,Client_121,Delivery was late and communication was poor.
+2026-03-11,Client_122,"Livraison conforme, expérience standard."
+2026-03-12,Client_123,Excellent customer support and smooth experience.
+2026-03-13,Client_124,"Produit décevant pour ce prix, je suis frustré."
+2026-03-14,Client_125,The product works as expected.
+2026-03-15,Client_126,Application fluide et support très réactif.
+2026-03-16,Client_127,"Package arrived damaged, very disappointing."
+2026-03-17,Client_128,"Avis mitigé, quelques points à améliorer."
+2026-03-18,Client_129,Good value for money and reliable service.
+2026-03-19,Client_130,Livraison en retard et aucune information du support.
+2026-03-20,Client_131,"It is okay overall, nothing special."
+2026-03-21,Client_132,"Très satisfait de la qualité, je recommande."
+2026-03-22,Client_133,The app keeps crashing after the update.
+2026-03-23,Client_134,"Rien de particulier, c'est acceptable."
+2026-03-24,Client_135,"The product matches expectations, highly recommended."
+2026-03-25,Client_136,"Colis abîmé à l'arrivée, mauvaise expérience."
+2026-03-26,Client_137,"Delivery was on time, standard service."
+2026-03-27,Client_138,"Bon rapport qualité prix, rien à signaler."
+2026-03-28,Client_139,Customer service was slow and unhelpful.
+2026-03-01,Client_140,"Le produit est correct, sans plus."
+2026-03-02,Client_141,"Great quality and fast delivery, very happy."
+2026-03-03,Client_142,Application lente avec plusieurs bugs gênants.
+2026-03-04,Client_143,"Average experience, neither good nor bad."
+2026-03-05,Client_144,Expérience parfaite du début à la fin.
+2026-03-06,Client_145,Quality is below expectations for this price.
+2026-03-07,Client_146,Fonctionne globalement comme prévu.
+2026-03-08,Client_147,Very satisfied with the app performance.
+2026-03-09,Client_148,Service client difficile à joindre et peu utile.
+2026-03-10,Client_149,"Mixed feelings, some pros and some cons."
+2026-03-11,Client_150,"Produit excellent, livraison rapide et service au top."
+2026-03-12,Client_151,Delivery was late and communication was poor.
+2026-03-13,Client_152,"Livraison conforme, expérience standard."
+2026-03-14,Client_153,Excellent customer support and smooth experience.
+2026-03-15,Client_154,"Produit décevant pour ce prix, je suis frustré."
+2026-03-16,Client_155,The product works as expected.
+2026-03-17,Client_156,Application fluide et support très réactif.
+2026-03-18,Client_157,"Package arrived damaged, very disappointing."
+2026-03-19,Client_158,"Avis mitigé, quelques points à améliorer."
+2026-03-20,Client_159,Good value for money and reliable service.
+2026-03-21,Client_160,Livraison en retard et aucune information du support.
+2026-03-22,Client_161,"It is okay overall, nothing special."
+2026-03-23,Client_162,"Très satisfait de la qualité, je recommande."
+2026-03-24,Client_163,The app keeps crashing after the update.
+2026-03-25,Client_164,"Rien de particulier, c'est acceptable."
+2026-03-26,Client_165,"The product matches expectations, highly recommended."
+2026-03-27,Client_166,"Colis abîmé à l'arrivée, mauvaise expérience."
+2026-03-28,Client_167,"Delivery was on time, standard service."
+2026-03-01,Client_168,"Bon rapport qualité prix, rien à signaler."
+2026-03-02,Client_169,Customer service was slow and unhelpful.
+2026-03-03,Client_170,"Le produit est correct, sans plus."
+2026-03-04,Client_171,"Great quality and fast delivery, very happy."
+2026-03-05,Client_172,Application lente avec plusieurs bugs gênants.
+2026-03-06,Client_173,"Average experience, neither good nor bad."
+2026-03-07,Client_174,Expérience parfaite du début à la fin.
+2026-03-08,Client_175,Quality is below expectations for this price.
+2026-03-09,Client_176,Fonctionne globalement comme prévu.
+2026-03-10,Client_177,Very satisfied with the app performance.
+2026-03-11,Client_178,Service client difficile à joindre et peu utile.
+2026-03-12,Client_179,"Mixed feelings, some pros and some cons."
+2026-03-13,Client_180,"Produit excellent, livraison rapide et service au top."
+2026-03-14,Client_181,Delivery was late and communication was poor.
+2026-03-15,Client_182,"Livraison conforme, expérience standard."
+2026-03-16,Client_183,Excellent customer support and smooth experience.
+2026-03-17,Client_184,"Produit décevant pour ce prix, je suis frustré."
+2026-03-18,Client_185,The product works as expected.
+2026-03-19,Client_186,Application fluide et support très réactif.
+2026-03-20,Client_187,"Package arrived damaged, very disappointing."
+2026-03-21,Client_188,"Avis mitigé, quelques points à améliorer."
+2026-03-22,Client_189,Good value for money and reliable service.
+2026-03-23,Client_190,Livraison en retard et aucune information du support.
+2026-03-24,Client_191,"It is okay overall, nothing special."
+2026-03-25,Client_192,"Très satisfait de la qualité, je recommande."
+2026-03-26,Client_193,The app keeps crashing after the update.
+2026-03-27,Client_194,"Rien de particulier, c'est acceptable."
+2026-03-28,Client_195,"The product matches expectations, highly recommended."
+2026-03-01,Client_196,"Colis abîmé à l'arrivée, mauvaise expérience."
+2026-03-02,Client_197,"Delivery was on time, standard service."
+2026-03-03,Client_198,"Bon rapport qualité prix, rien à signaler."
+2026-03-04,Client_199,Customer service was slow and unhelpful.
+2026-03-05,Client_200,"Le produit est correct, sans plus."
+2026-03-06,Client_201,"Great quality and fast delivery, very happy."
+2026-03-07,Client_202,Application lente avec plusieurs bugs gênants.
+2026-03-08,Client_203,"Average experience, neither good nor bad."
+2026-03-09,Client_204,Expérience parfaite du début à la fin.
+2026-03-10,Client_205,Quality is below expectations for this price.
+2026-03-11,Client_206,Fonctionne globalement comme prévu.
+2026-03-12,Client_207,Very satisfied with the app performance.
+2026-03-13,Client_208,Service client difficile à joindre et peu utile.
+2026-03-14,Client_209,"Mixed feelings, some pros and some cons."
+2026-03-15,Client_210,"Produit excellent, livraison rapide et service au top."
+2026-03-16,Client_211,Delivery was late and communication was poor.
+2026-03-17,Client_212,"Livraison conforme, expérience standard."
+2026-03-18,Client_213,Excellent customer support and smooth experience.
+2026-03-19,Client_214,"Produit décevant pour ce prix, je suis frustré."
+2026-03-20,Client_215,The product works as expected.
+2026-03-21,Client_216,Application fluide et support très réactif.
+2026-03-22,Client_217,"Package arrived damaged, very disappointing."
+2026-03-23,Client_218,"Avis mitigé, quelques points à améliorer."
+2026-03-24,Client_219,Good value for money and reliable service.
+2026-03-25,Client_220,Livraison en retard et aucune information du support.
+2026-03-26,Client_221,"It is okay overall, nothing special."
+2026-03-27,Client_222,"Très satisfait de la qualité, je recommande."
+2026-03-28,Client_223,The app keeps crashing after the update.
+2026-03-01,Client_224,"Rien de particulier, c'est acceptable."
+2026-03-02,Client_225,"The product matches expectations, highly recommended."
+2026-03-03,Client_226,"Colis abîmé à l'arrivée, mauvaise expérience."
+2026-03-04,Client_227,"Delivery was on time, standard service."
+2026-03-05,Client_228,"Bon rapport qualité prix, rien à signaler."
+2026-03-06,Client_229,Customer service was slow and unhelpful.
+2026-03-07,Client_230,"Le produit est correct, sans plus."
+2026-03-08,Client_231,"Great quality and fast delivery, very happy."
+2026-03-09,Client_232,Application lente avec plusieurs bugs gênants.
+2026-03-10,Client_233,"Average experience, neither good nor bad."
+2026-03-11,Client_234,Expérience parfaite du début à la fin.
+2026-03-12,Client_235,Quality is below expectations for this price.
+2026-03-13,Client_236,Fonctionne globalement comme prévu.
+2026-03-14,Client_237,Very satisfied with the app performance.
+2026-03-15,Client_238,Service client difficile à joindre et peu utile.
+2026-03-16,Client_239,"Mixed feelings, some pros and some cons."
+2026-03-17,Client_240,"Produit excellent, livraison rapide et service au top."
+2026-03-18,Client_241,Delivery was late and communication was poor.
+2026-03-19,Client_242,"Livraison conforme, expérience standard."
+2026-03-20,Client_243,Excellent customer support and smooth experience.
+2026-03-21,Client_244,"Produit décevant pour ce prix, je suis frustré."
+2026-03-22,Client_245,The product works as expected.
+2026-03-23,Client_246,Application fluide et support très réactif.
+2026-03-24,Client_247,"Package arrived damaged, very disappointing."
+2026-03-25,Client_248,"Avis mitigé, quelques points à améliorer."
+2026-03-26,Client_249,Good value for money and reliable service.
+2026-03-27,Client_250,Livraison en retard et aucune information du support.
+2026-03-28,Client_251,"It is okay overall, nothing special."
+2026-03-01,Client_252,"Très satisfait de la qualité, je recommande."
+2026-03-02,Client_253,The app keeps crashing after the update.
+2026-03-03,Client_254,"Rien de particulier, c'est acceptable."
+2026-03-04,Client_255,"The product matches expectations, highly recommended."
+2026-03-05,Client_256,"Colis abîmé à l'arrivée, mauvaise expérience."
+2026-03-06,Client_257,"Delivery was on time, standard service."
+2026-03-07,Client_258,"Bon rapport qualité prix, rien à signaler."
+2026-03-08,Client_259,Customer service was slow and unhelpful.
+2026-03-09,Client_260,"Le produit est correct, sans plus."
+2026-03-10,Client_261,"Great quality and fast delivery, very happy."
+2026-03-11,Client_262,Application lente avec plusieurs bugs gênants.
+2026-03-12,Client_263,"Average experience, neither good nor bad."
+2026-03-13,Client_264,Expérience parfaite du début à la fin.
+2026-03-14,Client_265,Quality is below expectations for this price.
+2026-03-15,Client_266,Fonctionne globalement comme prévu.
+2026-03-16,Client_267,Very satisfied with the app performance.
+2026-03-17,Client_268,Service client difficile à joindre et peu utile.
+2026-03-18,Client_269,"Mixed feelings, some pros and some cons."
+2026-03-19,Client_270,"Produit excellent, livraison rapide et service au top."
+2026-03-20,Client_271,Delivery was late and communication was poor.
+2026-03-21,Client_272,"Livraison conforme, expérience standard."
+2026-03-22,Client_273,Excellent customer support and smooth experience.
+2026-03-23,Client_274,"Produit décevant pour ce prix, je suis frustré."
+2026-03-24,Client_275,The product works as expected.
+2026-03-25,Client_276,Application fluide et support très réactif.
+2026-03-26,Client_277,"Package arrived damaged, very disappointing."
+2026-03-27,Client_278,"Avis mitigé, quelques points à améliorer."
+2026-03-28,Client_279,Good value for money and reliable service.
+2026-03-01,Client_280,Livraison en retard et aucune information du support.
+2026-03-02,Client_281,"It is okay overall, nothing special."
+2026-03-03,Client_282,"Très satisfait de la qualité, je recommande."
+2026-03-04,Client_283,The app keeps crashing after the update.
+2026-03-05,Client_284,"Rien de particulier, c'est acceptable."
+2026-03-06,Client_285,"The product matches expectations, highly recommended."
+2026-03-07,Client_286,"Colis abîmé à l'arrivée, mauvaise expérience."
+2026-03-08,Client_287,"Delivery was on time, standard service."
+2026-03-09,Client_288,"Bon rapport qualité prix, rien à signaler."
+2026-03-10,Client_289,Customer service was slow and unhelpful.
+2026-03-11,Client_290,"Le produit est correct, sans plus."
+2026-03-12,Client_291,"Great quality and fast delivery, very happy."
+2026-03-13,Client_292,Application lente avec plusieurs bugs gênants.
+2026-03-14,Client_293,"Average experience, neither good nor bad."
+2026-03-15,Client_294,Expérience parfaite du début à la fin.
+2026-03-16,Client_295,Quality is below expectations for this price.
+2026-03-17,Client_296,Fonctionne globalement comme prévu.
+2026-03-18,Client_297,Very satisfied with the app performance.
+2026-03-19,Client_298,Service client difficile à joindre et peu utile.
+2026-03-20,Client_299,"Mixed feelings, some pros and some cons."
+2026-03-21,Client_300,"Produit excellent, livraison rapide et service au top."
+2026-03-22,Client_301,Delivery was late and communication was poor.
+2026-03-23,Client_302,"Livraison conforme, expérience standard."
+2026-03-24,Client_303,Excellent customer support and smooth experience.
+2026-03-25,Client_304,"Produit décevant pour ce prix, je suis frustré."
+2026-03-26,Client_305,The product works as expected.
+2026-03-27,Client_306,Application fluide et support très réactif.
+2026-03-28,Client_307,"Package arrived damaged, very disappointing."
+2026-03-01,Client_308,"Avis mitigé, quelques points à améliorer."
+2026-03-02,Client_309,Good value for money and reliable service.
+2026-03-03,Client_310,Livraison en retard et aucune information du support.
+2026-03-04,Client_311,"It is okay overall, nothing special."
+2026-03-05,Client_312,"Très satisfait de la qualité, je recommande."
+2026-03-06,Client_313,The app keeps crashing after the update.
+2026-03-07,Client_314,"Rien de particulier, c'est acceptable."
+2026-03-08,Client_315,"The product matches expectations, highly recommended."
+2026-03-09,Client_316,"Colis abîmé à l'arrivée, mauvaise expérience."
+2026-03-10,Client_317,"Delivery was on time, standard service."
+2026-03-11,Client_318,"Bon rapport qualité prix, rien à signaler."
+2026-03-12,Client_319,Customer service was slow and unhelpful.
+2026-03-13,Client_320,"Le produit est correct, sans plus."
+2026-03-14,Client_321,"Great quality and fast delivery, very happy."
+2026-03-15,Client_322,Application lente avec plusieurs bugs gênants.
+2026-03-16,Client_323,"Average experience, neither good nor bad."
+2026-03-17,Client_324,Expérience parfaite du début à la fin.
+2026-03-18,Client_325,Quality is below expectations for this price.
+2026-03-19,Client_326,Fonctionne globalement comme prévu.
+2026-03-20,Client_327,Very satisfied with the app performance.
+2026-03-21,Client_328,Service client difficile à joindre et peu utile.
+2026-03-22,Client_329,"Mixed feelings, some pros and some cons."
+2026-03-23,Client_330,"Produit excellent, livraison rapide et service au top."
+2026-03-24,Client_331,Delivery was late and communication was poor.
+2026-03-25,Client_332,"Livraison conforme, expérience standard."
+2026-03-26,Client_333,Excellent customer support and smooth experience.
+2026-03-27,Client_334,"Produit décevant pour ce prix, je suis frustré."
+2026-03-28,Client_335,The product works as expected.
+2026-03-01,Client_336,Application fluide et support très réactif.
+2026-03-02,Client_337,"Package arrived damaged, very disappointing."
+2026-03-03,Client_338,"Avis mitigé, quelques points à améliorer."
+2026-03-04,Client_339,Good value for money and reliable service.
+2026-03-05,Client_340,Livraison en retard et aucune information du support.
+2026-03-06,Client_341,"It is okay overall, nothing special."
+2026-03-07,Client_342,"Très satisfait de la qualité, je recommande."
+2026-03-08,Client_343,The app keeps crashing after the update.
+2026-03-09,Client_344,"Rien de particulier, c'est acceptable."
+2026-03-10,Client_345,"The product matches expectations, highly recommended."
+2026-03-11,Client_346,"Colis abîmé à l'arrivée, mauvaise expérience."
+2026-03-12,Client_347,"Delivery was on time, standard service."
+2026-03-13,Client_348,"Bon rapport qualité prix, rien à signaler."
+2026-03-14,Client_349,Customer service was slow and unhelpful.
+2026-03-15,Client_350,"Le produit est correct, sans plus."
+2026-03-16,Client_351,"Great quality and fast delivery, very happy."
+2026-03-17,Client_352,Application lente avec plusieurs bugs gênants.
+2026-03-18,Client_353,"Average experience, neither good nor bad."
+2026-03-19,Client_354,Expérience parfaite du début à la fin.
+2026-03-20,Client_355,Quality is below expectations for this price.
+2026-03-21,Client_356,Fonctionne globalement comme prévu.
+2026-03-22,Client_357,Very satisfied with the app performance.
+2026-03-23,Client_358,Service client difficile à joindre et peu utile.
+2026-03-24,Client_359,"Mixed feelings, some pros and some cons."
+2026-03-25,Client_360,"Produit excellent, livraison rapide et service au top."
+2026-03-26,Client_361,Delivery was late and communication was poor.
+2026-03-27,Client_362,"Livraison conforme, expérience standard."
+2026-03-28,Client_363,Excellent customer support and smooth experience.
+2026-03-01,Client_364,"Produit décevant pour ce prix, je suis frustré."
+2026-03-02,Client_365,The product works as expected.
+2026-03-03,Client_366,Application fluide et support très réactif.
+2026-03-04,Client_367,"Package arrived damaged, very disappointing."
+2026-03-05,Client_368,"Avis mitigé, quelques points à améliorer."
+2026-03-06,Client_369,Good value for money and reliable service.
+2026-03-07,Client_370,Livraison en retard et aucune information du support.
+2026-03-08,Client_371,"It is okay overall, nothing special."
+2026-03-09,Client_372,"Très satisfait de la qualité, je recommande."
+2026-03-10,Client_373,The app keeps crashing after the update.
+2026-03-11,Client_374,"Rien de particulier, c'est acceptable."
+2026-03-12,Client_375,"The product matches expectations, highly recommended."
+2026-03-13,Client_376,"Colis abîmé à l'arrivée, mauvaise expérience."
+2026-03-14,Client_377,"Delivery was on time, standard service."
+2026-03-15,Client_378,"Bon rapport qualité prix, rien à signaler."
+2026-03-16,Client_379,Customer service was slow and unhelpful.
+2026-03-17,Client_380,"Le produit est correct, sans plus."
+2026-03-18,Client_381,"Great quality and fast delivery, very happy."
+2026-03-19,Client_382,Application lente avec plusieurs bugs gênants.
+2026-03-20,Client_383,"Average experience, neither good nor bad."
+2026-03-21,Client_384,Expérience parfaite du début à la fin.
+2026-03-22,Client_385,Quality is below expectations for this price.
+2026-03-23,Client_386,Fonctionne globalement comme prévu.
+2026-03-24,Client_387,Very satisfied with the app performance.
+2026-03-25,Client_388,Service client difficile à joindre et peu utile.
+2026-03-26,Client_389,"Mixed feelings, some pros and some cons."
+2026-03-27,Client_390,"Produit excellent, livraison rapide et service au top."
+2026-03-28,Client_391,Delivery was late and communication was poor.
+2026-03-01,Client_392,"Livraison conforme, expérience standard."
+2026-03-02,Client_393,Excellent customer support and smooth experience.
+2026-03-03,Client_394,"Produit décevant pour ce prix, je suis frustré."
+2026-03-04,Client_395,The product works as expected.
+2026-03-05,Client_396,Application fluide et support très réactif.
+2026-03-06,Client_397,"Package arrived damaged, very disappointing."
+2026-03-07,Client_398,"Avis mitigé, quelques points à améliorer."
+2026-03-08,Client_399,Good value for money and reliable service.
+2026-03-09,Client_400,Livraison en retard et aucune information du support.
+2026-03-10,Client_401,"It is okay overall, nothing special."
+2026-03-11,Client_402,"Très satisfait de la qualité, je recommande."
+2026-03-12,Client_403,The app keeps crashing after the update.
+2026-03-13,Client_404,"Rien de particulier, c'est acceptable."
+2026-03-14,Client_405,"The product matches expectations, highly recommended."
+2026-03-15,Client_406,"Colis abîmé à l'arrivée, mauvaise expérience."
+2026-03-16,Client_407,"Delivery was on time, standard service."
+2026-03-17,Client_408,"Bon rapport qualité prix, rien à signaler."
+2026-03-18,Client_409,Customer service was slow and unhelpful.
+2026-03-19,Client_410,"Le produit est correct, sans plus."
+2026-03-20,Client_411,"Great quality and fast delivery, very happy."
+2026-03-21,Client_412,Application lente avec plusieurs bugs gênants.
+2026-03-22,Client_413,"Average experience, neither good nor bad."
+2026-03-23,Client_414,Expérience parfaite du début à la fin.
+2026-03-24,Client_415,Quality is below expectations for this price.
+2026-03-25,Client_416,Fonctionne globalement comme prévu.
+2026-03-26,Client_417,Very satisfied with the app performance.
+2026-03-27,Client_418,Service client difficile à joindre et peu utile.
+2026-03-28,Client_419,"Mixed feelings, some pros and some cons."
+2026-03-01,Client_420,"Produit excellent, livraison rapide et service au top."
+2026-03-02,Client_421,Delivery was late and communication was poor.
+2026-03-03,Client_422,"Livraison conforme, expérience standard."
+2026-03-04,Client_423,Excellent customer support and smooth experience.
+2026-03-05,Client_424,"Produit décevant pour ce prix, je suis frustré."
+2026-03-06,Client_425,The product works as expected.
+2026-03-07,Client_426,Application fluide et support très réactif.
+2026-03-08,Client_427,"Package arrived damaged, very disappointing."
+2026-03-09,Client_428,"Avis mitigé, quelques points à améliorer."
+2026-03-10,Client_429,Good value for money and reliable service.
+2026-03-11,Client_430,Livraison en retard et aucune information du support.
+2026-03-12,Client_431,"It is okay overall, nothing special."
+2026-03-13,Client_432,"Très satisfait de la qualité, je recommande."

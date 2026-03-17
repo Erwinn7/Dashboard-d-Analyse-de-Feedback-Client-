@@ -1,9 +1,10 @@
-import io
 import os
+import io
 import pandas as pd
 import streamlit as st
+import plotly.express as px
 
-from analyzer import analyze_feedback, analyze_feedbacks_dataframe
+from analyzer import analyze_feedbacks_dataframe
 
 DATA_PATH = "analyses_store.csv"
 REQUIRED_COLUMNS = ["date", "client_name", "feedback"]
@@ -48,6 +49,20 @@ def get_theme_stats(df):
     return theme_distribution, sentiment_by_theme
 
 
+def build_sentiment_trend(df):
+    score_map = {"Positif": 1, "Neutre": 0, "Négatif": -1}
+    trend_df = df.copy()
+    trend_df["date"] = pd.to_datetime(trend_df["date"], errors="coerce")
+    trend_df = trend_df.dropna(subset=["date"])
+    trend_df["sentiment_score"] = trend_df["sentiment_global"].map(score_map).fillna(0)
+    trend_df = (
+        trend_df.groupby("date", as_index=False)["sentiment_score"]
+        .mean()
+        .sort_values("date")
+    )
+    return trend_df
+
+
 def top_examples(df, sentiment, top_n=3):
     subset = df[df["sentiment_global"] == sentiment].copy()
     if subset.empty:
@@ -71,28 +86,105 @@ def parse_manual_input(raw_text):
     return pd.DataFrame(records)
 
 
+def build_sample_csv():
+    sample_df = pd.DataFrame(
+        [
+            {"date": "2026-03-01", "client_name": "Alice", "feedback": "Livraison rapide et produit excellent."},
+            {"date": "2026-03-02", "client_name": "Bob", "feedback": "Application correcte, mais quelques lenteurs."},
+            {"date": "2026-03-03", "client_name": "Charlie", "feedback": "Service client lent et colis abîmé."},
+        ]
+    )
+    buffer = io.StringIO()
+    sample_df.to_csv(buffer, index=False)
+    return buffer.getvalue().encode("utf-8")
+
+
 st.set_page_config(page_title="Dashboard Feedback Client", layout="wide")
+st.markdown(
+    """
+    <style>
+    .stApp {
+        background-color: #f6f8fb;
+    }
+    .block-container {
+        padding-top: 1.5rem;
+        padding-bottom: 2rem;
+        max-width: 1200px;
+    }
+    .kpi-card {
+        background: #ffffff;
+        border: 1px solid #e7ebf3;
+        border-radius: 14px;
+        padding: 14px 16px;
+        box-shadow: 0 4px 14px rgba(15, 23, 42, 0.04);
+    }
+    .kpi-label {
+        color: #64748b;
+        font-size: 0.9rem;
+        margin-bottom: 4px;
+    }
+    .kpi-value {
+        color: #0f172a;
+        font-size: 1.65rem;
+        font-weight: 700;
+        line-height: 1.2;
+    }
+    .section-title {
+        color: #0f172a;
+        font-weight: 600;
+        margin-top: 0.3rem;
+        margin-bottom: 0.5rem;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
 st.title("Dashboard d'analyse de feedback client")
-st.caption("MVP: import, analyse IA, persistance et vues agrégées")
+st.caption("Interface claire • camemberts • courbe d'évolution")
 
 store_df = load_store()
+new_df = pd.DataFrame()
 
 with st.sidebar:
-    st.header("Import")
-    uploaded_file = st.file_uploader("Importer un CSV", type=["csv"])
-    manual_feedbacks = st.text_area(
-        "Ou coller des feedbacks (1 ligne = 1 feedback)",
-        height=180,
-        placeholder="Exemple:\nLivraison trop lente 😕\nProduit top, merci !",
+    st.header("Import des données")
+    st.caption("Charge un fichier CSV au format: date, client_name, feedback")
+
+    st.download_button(
+        label="Télécharger un template CSV",
+        data=build_sample_csv(),
+        file_name="template_feedbacks.csv",
+        mime="text/csv",
+        use_container_width=True,
     )
 
-    run_analysis = st.button("Analyser et ajouter")
+    uploaded_file = st.file_uploader(
+        "Glisse-dépose ton CSV",
+        type=["csv"],
+        help="Colonnes obligatoires: date, client_name, feedback",
+    )
 
-new_df = pd.DataFrame()
-if uploaded_file is not None:
-    new_df = pd.read_csv(uploaded_file)
-elif manual_feedbacks.strip():
-    new_df = parse_manual_input(manual_feedbacks)
+    if uploaded_file is not None:
+        try:
+            csv_df = pd.read_csv(uploaded_file)
+            new_df = csv_df.copy()
+            st.success(f"{len(csv_df)} ligne(s) détectée(s).")
+            st.caption("Aperçu (5 premières lignes)")
+            st.dataframe(csv_df.head(5), use_container_width=True, hide_index=True)
+        except Exception as exc:
+            st.error(f"CSV invalide: {exc}")
+
+    with st.expander("Ou saisie manuelle"):
+        manual_feedbacks = st.text_area(
+            "1 ligne = 1 feedback",
+            height=140,
+            placeholder="Exemple:\nLivraison trop lente 😕\nProduit top, merci !",
+        )
+        if manual_feedbacks.strip() and uploaded_file is None:
+            new_df = parse_manual_input(manual_feedbacks)
+            st.info(f"{len(new_df)} feedback(s) prêt(s) à analyser.")
+
+    run_analysis = st.button("Analyser et ajouter", type="primary", use_container_width=True)
 
 if run_analysis:
     if new_df.empty:
@@ -110,19 +202,84 @@ if run_analysis:
         except Exception as exc:
             st.error(f"Erreur: {exc}")
 
+total_feedbacks = len(store_df)
+total_positive = int((store_df["sentiment_global"] == "Positif").sum()) if not store_df.empty else 0
+total_negative = int((store_df["sentiment_global"] == "Négatif").sum()) if not store_df.empty else 0
+
 col1, col2, col3 = st.columns(3)
-col1.metric("Nombre de feedbacks", len(store_df))
-col2.metric("Positifs", int((store_df["sentiment_global"] == "Positif").sum()) if not store_df.empty else 0)
-col3.metric("Négatifs", int((store_df["sentiment_global"] == "Négatif").sum()) if not store_df.empty else 0)
+with col1:
+    st.markdown(
+        f"""
+        <div class="kpi-card">
+            <div class="kpi-label">Nombre de feedbacks</div>
+            <div class="kpi-value">{total_feedbacks}</div>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+with col2:
+    st.markdown(
+        f"""
+        <div class="kpi-card">
+            <div class="kpi-label">Positifs</div>
+            <div class="kpi-value">{total_positive}</div>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+with col3:
+    st.markdown(
+        f"""
+        <div class="kpi-card">
+            <div class="kpi-label">Négatifs</div>
+            <div class="kpi-value">{total_negative}</div>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
 
 if not store_df.empty:
-    st.subheader("Répartition des sentiments")
-    sentiment_counts = store_df["sentiment_global"].value_counts()
-    st.bar_chart(sentiment_counts)
-
-    st.subheader("Répartition des thèmes")
     theme_distribution, sentiment_by_theme = get_theme_stats(store_df)
-    st.bar_chart(theme_distribution)
+
+    with st.spinner("Chargement des graphiques..."):
+        sentiment_counts = store_df["sentiment_global"].value_counts().rename_axis("sentiment").reset_index(name="count")
+        theme_counts = theme_distribution.rename_axis("theme").reset_index(name="count")
+        trend_data = build_sentiment_trend(store_df)
+
+        fig_sentiment = px.pie(
+            sentiment_counts,
+            names="sentiment",
+            values="count",
+            title="Répartition des sentiments",
+            hole=0.35,
+        )
+
+        fig_themes = px.pie(
+            theme_counts,
+            names="theme",
+            values="count",
+            title="Répartition des thèmes",
+            hole=0.35,
+        )
+
+        fig_trend = px.line(
+            trend_data,
+            x="date",
+            y="sentiment_score",
+            markers=True,
+            title="Évolution du sentiment moyen par jour",
+        )
+        fig_trend.update_yaxes(range=[-1, 1])
+
+    st.markdown('<div class="section-title">Vue globale</div>', unsafe_allow_html=True)
+    col_left, col_right = st.columns(2)
+    with col_left:
+        st.plotly_chart(fig_sentiment, use_container_width=True)
+    with col_right:
+        st.plotly_chart(fig_themes, use_container_width=True)
+
+    st.markdown('<div class="section-title">Tendance temporelle</div>', unsafe_allow_html=True)
+    st.plotly_chart(fig_trend, use_container_width=True)
 
     st.subheader("Sentiment par thème")
     st.dataframe(sentiment_by_theme)
