@@ -99,6 +99,33 @@ def build_sample_csv():
     return buffer.getvalue().encode("utf-8")
 
 
+def build_pie_figure(dataframe, names_col, values_col, title, hole=0.38):
+    pulls = []
+    total = float(dataframe[values_col].sum()) if len(dataframe) else 0.0
+    for value in dataframe[values_col].tolist():
+        ratio = (float(value) / total) if total > 0 else 0
+        pulls.append(0.05 if ratio >= 0.2 else 0.03)
+
+    fig = px.pie(
+        dataframe,
+        names=names_col,
+        values=values_col,
+        title=title,
+        hole=hole,
+    )
+    fig.update_traces(
+        sort=False,
+        pull=pulls,
+        marker=dict(line=dict(color="#ffffff", width=2)),
+    )
+    fig.update_layout(
+        paper_bgcolor="rgba(0,0,0,0)",
+        plot_bgcolor="rgba(0,0,0,0)",
+        margin=dict(t=55, l=10, r=10, b=10),
+    )
+    return fig
+
+
 st.set_page_config(page_title="Dashboard Feedback Client", layout="wide")
 st.markdown(
     """
@@ -246,22 +273,6 @@ if not store_df.empty:
         theme_counts = theme_distribution.rename_axis("theme").reset_index(name="count")
         trend_data = build_sentiment_trend(store_df)
 
-        fig_sentiment = px.pie(
-            sentiment_counts,
-            names="sentiment",
-            values="count",
-            title="Répartition des sentiments",
-            hole=0.35,
-        )
-
-        fig_themes = px.pie(
-            theme_counts,
-            names="theme",
-            values="count",
-            title="Répartition des thèmes",
-            hole=0.35,
-        )
-
         fig_trend = px.line(
             trend_data,
             x="date",
@@ -274,8 +285,20 @@ if not store_df.empty:
     st.markdown('<div class="section-title">Vue globale</div>', unsafe_allow_html=True)
     col_left, col_right = st.columns(2)
     with col_left:
+        fig_sentiment = build_pie_figure(
+            sentiment_counts,
+            names_col="sentiment",
+            values_col="count",
+            title="Répartition des sentiments",
+        )
         st.plotly_chart(fig_sentiment, use_container_width=True)
     with col_right:
+        fig_themes = build_pie_figure(
+            theme_counts,
+            names_col="theme",
+            values_col="count",
+            title="Répartition des thèmes",
+        )
         st.plotly_chart(fig_themes, use_container_width=True)
 
     st.markdown('<div class="section-title">Tendance temporelle</div>', unsafe_allow_html=True)
